@@ -40,7 +40,7 @@
 
 .header__nav li {
   padding: 12px 40px 12px 40px;
-  font-size: 24px;
+  font-size: var(--block-padding-vertical);
   font-style: normal;
   font-weight: 300;
   line-height: normal;

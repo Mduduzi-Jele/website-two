@@ -37,7 +37,7 @@
 
 .footer__nav ul li {
     width: 200px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .footer__nav__button {
