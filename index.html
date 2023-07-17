@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" /> -->
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="home">
+      <header class="home__header">
+        <h2 class="header__logo">D<span>Z</span></h2>
+
+        <ul class="header__nav">
+          <li>ABOUT</li>
+          <li>ARTICLES</li>
+        </ul>
+
+        <div class="header__button"><h2>SUBSCRIBE</h2></div>
+
+        <div href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </div>
+
+      </header>
+
+      <div id="menu" class="home_responsive-nav">
+          <li>ABOUT</li>
+          <li>ARTICLES</li>
+      </div>
+
+      <h1 class="home__title align-center">DRONOTICZ</h1>
+      <p class="home__subtitle align-center">THE ERA OF DRONES</p>
+      <hr class="home__line" />
+    </div>
+
+    <div class="articles">
+      <h1 class="articles__title align-center">LATEST ARTICLES</h1>
+
+      <hr class="articles__line" />
+
+      <div class="articles__cards">
+        <div class="articles__card">
+          <img class="card__image" src="/assests/drone1.jpg" />
+          <hr class="card__line" />
+          <p>
+            How to automate <br />
+            surveillance drones
+          </p>
+        </div>
+
+        <div class="articles__card">
+          <img class="card__image" src="/assests/drone2.jpg" />
+          <hr class="card__line" />
+          <p>
+            Robotics and Artificial <br />
+            Intelligence
+          </p>
+        </div>
+
+        <div class="articles__card">
+          <img class="card__image" src="/assests/drone4.jpg" />
+          <hr class="card__line" />
+          <p>
+            Improving Lives through <br />
+            Robotic Prosthetics
+          </p>
+        </div>
+
+        <div class="articles__card">
+          <img class="card__image" src="/assests/drone6.jpg" />
+          <hr class="card__line" />
+          <p class="align-center">
+            Power of Robotics in <br />
+            Agriculture
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-us">
+      <div class="about-us__image"><img src="/assests/drone8.jpg" /></div>
+
+      <div class="about-us__content">
+        <h2 class="about-us__title">ABOUT US</h2>
+        <hr class="about-us__line" />
+        <p>
+          Welcome to our dronoticz, where innovation and technology converge to
+          shape the future. We revolutionize industries and improve lives
+          worldwide through our passion for pushing the boundaries of what
+          robots can do. With expertise in AI, computer vision, mechanical
+          engineering, and automation, we lead the way in the robotics
+          revolution. Our brilliant team creates intelligent machines that
+          seamlessly integrate into daily life, enhancing productivity, safety,
+          and efficiency.Join us on this exciting journey as we unlock new
+          frontiers, solve complex challenges, and shape a future where
+          intelligent machines work hand-in-hand with humans. Discover the power
+          of robotics and be part of the revolution.
+        </p>
+      </div>
+    </div>
+
+    <div class="newsletter">
+      <h2 class="newsletter__title">SUBSCRIBE</h2>
+      <p>Sign-up to our newsletter</p>
+      <input
+        class="newsletter__text-box"
+        type="text"
+        placeholder="Your email"
+      />
+      <div class="newsletter__button"><span>SUBMIT</span></div>
+    </div>
+
+    <div class="footer">
+      <div class="footer__social-media-icons">
+        <i href="#" class="fa fa-twitter"></i>
+        <i href="#" class="fa fa-linkedin"></i>
+        <i href="#" class="fa fa-pinterest"></i>
+      </div>
+
+      <div class="footer__nav">
+        <ul>
+          <li>ABOUT US</li>
+          <li>ARTICLES</li>
+        </ul>
+      </div>
+
+      <div class="footer__nav__button"><span>SUBSCRIBE</span></div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("menu");
+        if(x.className === "home_responsive-nav active"){
+          x.className = "home_responsive-nav"
+        } else {
+          x.className = "home_responsive-nav active"
+        }
+      }
+      </script>
+
+  </body>
+</html>
